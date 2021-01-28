@@ -1,0 +1,23 @@
+.img-s {
+  width: clamp(80px 20vw 200px);
+  hight: auto;
+}
+
+.img-m {
+  width: clamp(180px 20vw 400px);
+  hight: auto;
+}
+
+.img-l {
+  width: clamp(280px 20vw 600px);
+  hight: auto;
+}
+
+.img-full {
+  width: 100vw;
+  height: auto;
+}
+
+.link-s {
+  font-size: 1rem;
+}
