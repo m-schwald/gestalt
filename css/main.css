@@ -8,9 +8,9 @@
   left: 0;
   right: 0;
   background: linear-gradient(rgba(0, 0, 0, 0.7) 80%, transparent);
-  padding: clamp(1.5rem, 10vh, 3rem);
+  padding: 0 clamp(1.5rem, 10vh, 3rem);
   z-index: 1;
-  font-size: clamp(1.2rem, 1.5rem, 2rem);
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
 }
 
 nav a {
@@ -51,6 +51,7 @@ summary {
 .first h1 {
   color: var(--light);
   font-size: clamp(2rem, 5vw, 5rem);
+  font-weight: lighter;
 }
 
 .link--down {
@@ -80,7 +81,7 @@ summary {
 }
 
 .welcome p {
-  font-size: 1.2rem;
+  font-size: clamp(0.8rem, 2vh, 1.5rem);
   padding: 0.5rem 6rem;
   line-height: 1.5;
   font-weight: 200;
@@ -140,7 +141,7 @@ summary {
   align-items: center;
   text-align: center;
   margin: 2rem auto 0 auto;
-  padding: 0 2rem;
+  width: clamp(200px, 80vw, 1000px);
 }
 
 .gallery2 img {
