@@ -1,16 +1,16 @@
 .img-s {
   width: clamp(80px 20vw 200px);
-  hight: auto;
+  height: auto;
 }
 
 .img-m {
   width: clamp(180px 20vw 400px);
-  hight: auto;
+  height: auto;
 }
 
 .img-l {
   width: clamp(280px 20vw 600px);
-  hight: auto;
+  height: auto;
 }
 
 .img-full {
@@ -20,4 +20,12 @@
 
 .link-s {
   font-size: 1rem;
+}
+
+.br-35 {
+  border-radius: 35px;
+}
+
+.br-8 {
+  border-radius: 82% 59% / 25% 18%;
 }

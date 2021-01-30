@@ -1,3 +1,24 @@
+/* nav {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: wrap;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.7) 80%, transparent);
+  padding: 0 clamp(1.5rem, 10vh, 3rem);
+  z-index: 1;
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
+}
+
+nav a {
+  color: var(--light);
+  margin: 0 1rem;
+  font-weight: 100;
+} */
+
 summary {
   color: var(--light);
   margin: 0 1rem;
@@ -30,6 +51,7 @@ summary {
 .first h1 {
   color: var(--light);
   font-size: clamp(2rem, 5vw, 5rem);
+  font-weight: lighter;
 }
 
 .link--down {
@@ -43,9 +65,99 @@ summary {
   color: var(--light);
 }
 
-.link--down:hover {
-}
-
 #welcome {
   scroll-margin-top: 15vh;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcome h1 {
+  font-size: clamp(2rem, 5vw, 5rem);
+  color: var(--three);
+  padding: 3rem 2rem 0 2rem;
+  font-weight: 400;
+}
+
+.welcome p {
+  font-size: clamp(0.8rem, 2vh, 1.5rem);
+  padding: 0.5rem 6rem;
+  line-height: 1.5;
+  font-weight: 200;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .welcome p {
+    padding: 0 2.5rem;
+  }
+}
+
+.welcome img {
+  width: clamp(200px, 80vw, 1000px);
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.welcome a {
+  color: var(--dark);
+  font-weight: 400;
+}
+
+.welcome a:hover {
+  color: var(--one);
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 3rem auto;
+  padding: 2rem 2rem;
+  background: linear-gradient(#f3f3f3, #fafafa);
+}
+
+.gallery img {
+  width: 200px;
+  height: auto;
+  filter: drop-shadow(1rem 1rem 0.75rem rgba(0, 0, 0, 0.466));
+}
+
+@media (max-width: 700px) {
+  .gallery img {
+    width: 120px;
+    height: auto;
+  }
+}
+
+.gallery2 {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2rem auto 0 auto;
+  width: clamp(200px, 80vw, 1000px);
+}
+
+.gallery2 img {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  padding: 0.5rem;
+}
+
+@media (max-width: 700px) {
+  .gallery2 img {
+    width: 120px;
+    height: auto;
+  }
+}
+
+.gallery2 p {
+  margin-top: -0.5rem;
 }

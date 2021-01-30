@@ -15,7 +15,7 @@
 :root {
   --one: #808c3d;
   --two: #667800;
-  --three: #599418;
+  --three: #884920;
   --dark: black;
   --light: white;
 }
@@ -54,4 +54,8 @@ h6 {
 
 h1 {
   font-size: 3rem;
+}
+
+p {
+  color: var(--dark);
 }
