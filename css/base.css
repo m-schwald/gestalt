@@ -59,3 +59,8 @@ h1 {
 p {
   color: var(--dark);
 }
+
+.bold {
+  font-weight: bold;
+  padding: 3rem 0;
+}
