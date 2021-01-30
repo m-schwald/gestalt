@@ -1,66 +1,108 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>GestaltZeit</title>
-</head>
-<body>
+  </head>
+  <body class="has-navbar-fixed-top">
     <header>
-        <nav>
-            <a href="index.html" class="nav__link">Gestaltzeit</a>
-            <a href="team.html" class="nav__link">Unser Team</a>
-            <details>
-                <summary>
-                     Angebote
-                </summary> 
-                <div class="details__link">
-                    <a class="link-s" href="angebote.html">GZ am Abend</a>
-                    <a class="link-s" href="angebote.html">GZ im Frühling</a>
-                    <a class="link-s" href="angebote.html">GZ im Wald</a>
-                    <a class="link-s" href="angebote.html">GZ Einzelsession</a>
-                </div>
-            </details>
-            <a href="#kontakt" class="nav__link">Kontakt</a>
-        </nav>
+      <!-- https://bulma.io/documentation/components/navbar/ -->
+      <nav
+        class="navbar is-dark is-fixed-top"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="navbar-brand">
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a href="#" class="navbar-item"> Gestaltzeit</a>
+
+            <a href="#" class="navbar-item"> Unser Team </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a href="#" class="navbar-link"> Angebote </a>
+
+              <div class="navbar-dropdown">
+                <a href="#" class="navbar-item"> Gestaltzeit am Abend </a>
+                <a href="#" class="navbar-item"> Gestaltzeit im Frühling</a>
+                <a href="#" class="navbar-item"> Gestaltzeit im Wald</a>
+                <a href="#" class="navbar-item"> Gestaltzeit im Herbst</a>
+                <a href="#" class="navbar-item"> Gestaltzeit Einzelsession </a>
+              </div>
+            </div>
+            <a class="navbar-item"> Kontakt</a>
+          </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <!-- <div class="buttons">
+              <a class="button is-primary">
+                <strong>Sign up</strong>
+              </a>
+              <a class="button is-light"> Log in </a>
+            </div> -->
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
     <main id="start">
-        <section class="first">
-            <img class="" src="images/logo_ol.png" alt="GestaltZeit Header">
-            <h1>Kontakt - Präsenz - Selbsterfahrung</h1>
-            <a class="link--down" href="#welcome"> los geht's</a>
-        </section>
+      <section class="first">
+        <img class="" src="images/logo_ol.png" alt="GestaltZeit Header" />
+        <h1>Kontakt - Präsenz - Selbsterfahrung</h1>
+        <a class="link--down" href="#welcome"> los geht's</a>
+      </section>
 
-        <section id="welcome" class="welcome">
-            <h1>
-                Willkommen, du Wanderer im Weltgetriebe!
-            </h1>
-            <p>
-                Bist du auf der Suche, ohne genau zu wissen, wonach eigentlich? <br> Hast du Lust, dich mit dir und der Welt auseinander zu setzen? <br> In authentischen und wahrhaftigen Kontakt einzutauchen?
-            </p>
-            <p>Dann bist du hier und jetzt genau richtig!</p>
-           <img class="img-s"src="images/header2.jpg" alt="hands"> 
-           <p> Wir initiieren <a class="bold" href="angebote.html" >Erfahrungs- und Forschungsräume</a>, in denen du dich durch verschiedene Formate wie Sharing in der Gruppe, Einzel-, Partner*innen- und Gruppenübungen, Meditation und Achtsamkeitsübungen, Body Work und kreativen Ausdruck selbst entdecken und dich in der Welt, v.a. im zwischenmenschlichen Kontakt, erfahren kannst. </p>
-        </section>
+      <section id="welcome" class="welcome">
+        <h1>Willkommen, du Wanderer im Weltgetriebe!</h1>
+        <p>
+          Bist du auf der Suche, ohne genau zu wissen, wonach eigentlich? <br />
+          Hast du Lust, dich mit dir und der Welt auseinander zu setzen? <br />
+          In authentischen und wahrhaftigen Kontakt einzutauchen?
+        </p>
+        <p>Dann bist du hier und jetzt genau richtig!</p>
+        <img class="img-s" src="images/header2.jpg" alt="hands" />
+        <p>
+          Wir initiieren
+          <a class="bold" href="angebote.html"
+            >Erfahrungs- und Forschungsräume</a
+          >, in denen du dich durch verschiedene Formate wie Sharing in der
+          Gruppe, Einzel-, Partner*innen- und Gruppenübungen, Meditation und
+          Achtsamkeitsübungen, Body Work und kreativen Ausdruck selbst entdecken
+          und dich in der Welt, v.a. im zwischenmenschlichen Kontakt, erfahren
+          kannst.
+        </p>
+      </section>
 
-        <section class="gallery">
-            <div class="item">
-
-            </div>
-        </section>
-
-
+      <section class="gallery">
+        <div class="item"></div>
+      </section>
     </main>
     <footer>
-        <navi>
-
-        </navi>
-        <div id="kontakt">
-            <form action="">
-
-            </form>
-        </div>
+      <navi> </navi>
+      <div id="kontakt">
+        <form action=""></form>
+      </div>
     </footer>
-</body>
+    <script src="./js/navbarToggle.js"></script>
+  </body>
 </html>
