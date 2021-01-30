@@ -61,6 +61,10 @@ p {
 }
 
 .bold {
-  font-weight: bold;
-  padding: 3rem 0;
+  font-weight: 600 !important;
+}
+
+.bold1 {
+  font-weight: 600 !important;
+  padding: 0 1rem !important;
 }
