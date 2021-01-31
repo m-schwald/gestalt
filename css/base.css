@@ -36,7 +36,7 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--light);
+  color: var(--dark);
 }
 
 a:hover {
@@ -60,11 +60,24 @@ p {
   color: var(--dark);
 }
 
-.bold {
+.bold1 {
   font-weight: 600 !important;
 }
 
-.bold1 {
-  font-weight: 600 !important;
-  padding: 0 1rem !important;
+.bold {
+  font-weight: 500 !important;
+}
+
+td {
+  font-weight: 300;
+  padding: 0.5rem 0;
+}
+
+td:nth-of-type(odd) {
+  font-weight: 600;
+}
+
+.playlist {
+  font-family: "Playlist";
+  font-size: 2rem;
 }
