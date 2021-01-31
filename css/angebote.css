@@ -143,3 +143,18 @@ summary {
 .details a {
   text-decoration: underline;
 }
+
+.details__pics {
+  display: flex;
+  width: 90vw;
+  flex-flow: row nowrap;
+  gap: 3vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.details__pics img {
+  width: clamp(80px, 25vw, 300px);
+  padding: 1rem;
+  border-radius: 30px;
+}
