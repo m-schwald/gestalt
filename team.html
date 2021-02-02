@@ -8,13 +8,14 @@
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <title>GestaltZeit</title>
   </head>
   <body class="has-navbar-fixed-top">
     <header>
       <!-- https://bulma.io/documentation/components/navbar/ -->
       <nav
-        class="navbar is-dark is-fixed-top"
+        class="navbar is-transparent is-fixed-top"
         role="navigation"
         aria-label="main navigation"
       >
@@ -42,19 +43,19 @@
               <a href="angebote.html" class="navbar-link"> Angebote </a>
 
               <div class="navbar-dropdown">
-                <a href="angebote.html/#abend" class="navbar-item">
+                <a href="angebote.html#abend" class="navbar-item">
                   Gestaltzeit am Abend
                 </a>
-                <a href="angebote.html/#fruehling" class="navbar-item">
+                <a href="angebote.html#fruehling" class="navbar-item">
                   Gestaltzeit im Frühling</a
                 >
-                <a href="angebote.html/#wald" class="navbar-item">
+                <a href="angebote.html#wald" class="navbar-item">
                   Gestaltzeit im Wald</a
                 >
-                <a href="angebote.html/#herbst" class="navbar-item">
+                <a href="angebote.html#herbst" class="navbar-item">
                   Gestaltzeit im Herbst</a
                 >
-                <a href="angebote.html/#einzel" class="navbar-item">
+                <a href="angebote.html#einzel" class="navbar-item">
                   Gestaltzeit Einzelsession
                 </a>
               </div>
@@ -73,6 +74,7 @@
             </div>
           </div>
         </div>
+        <div class="bg"></div>
       </nav>
     </header>
 
@@ -92,46 +94,44 @@
         <img src="images/pic07.jpg" alt="team pic" />
       </section>
       <section class="team-container">
-        <div class="team-container-item">
+        <div id="Majke" class="team-container-item hidden">
           <img src="images/t3.jpg" alt="Majke" />
           <figure class="text-person">
             <h3>Majke Kunze</h3>
             <p>
               Psychologin (M.Sc.), Gestalttherapeutin (i.A.) Schwerpunkt
               Körperpsychotherapie & kreative Medien, Hypnosystem-Coach,
-              Traumapädagogin i.A. Mich drängt seit jeher die Frage nach dem
-              „Wahren“: was ist das eigentlich? Was steckt hinter / in all den
-              Möglichkeiten, die Welt zu sehen? Wie finde ich meine ganz eigene
-              Wahrheit, meinen Wesenskern? Meine Vision in diesem Fragen ist es,
-              in ein sinnhaftes, erfülltes und sprudeliges Leben hinein zu
-              leben. Dabei ist Gestalt für mich ein wunderbarer Boden, auf dem
-              ich meine Schritte setzen kann. Es ermöglicht mir den Zugang zu
-              dem, was wirklich gerade ist, hinter all den Schutzvorhängen,
-              Mauern und Fassaden. Wer bin ich noch, neben der die ich gelernt
-              habe zu sein? Mit der Haltung der Gestalttherapie trete ich
-              (wieder) in einen (echten) Kontakt mit mir und mit der Welt um
-              mich herum. Injedem gegenwärtigen Augenblick neu. In meiner
-              Begleitung von Menschen bin ich experimentierfreudig,nah, achtsam
-              und haltgeben. Ich arbeite gern über und mit demKörper, der Stimme
-              und deinen ganz eigenen inneren Bildern.
+              Traumapädagogin i.A. <br /><br />
+              Mich drängt seit jeher die Frage nach dem „Wahren“: was ist das
+              eigentlich? Was steckt hinter / in all den Möglichkeiten, die Welt
+              zu sehen? Wie finde ich meine ganz eigene Wahrheit, meinen
+              Wesenskern? Meine Vision in diesem Fragen ist es, in ein
+              sinnhaftes, erfülltes und sprudeliges Leben hinein zu leben. Dabei
+              ist Gestalt für mich ein wunderbarer Boden, auf dem ich meine
+              Schritte setzen kann. In jedem gegenwärtigen Augenblick neu.
+              <br />
+              <br />
+              In meiner Begleitung von Menschen bin ich experimentierfreudig,
+              nah, achtsam und haltgeben. Ich arbeite gern über und mit dem
+              Körper, der Stimme und deinen ganz eigenen inneren Bildern.
             </p>
           </figure>
         </div>
-        <div class="team-container-item-reverse">
+        <div id="Patricia" class="team-container-item-reverse hidden">
           <figure class="text-person-reverse">
             <h3>Patricia Kleber</h3>
             <p>
               Sozialpädagogin M.A., Gestalttherapeutin i.A., Heldenreiseleiterin
-              i.A., Natur- und Erlebnispädagogin Seit ich die Gestalttherapie
-              für mich entdeckt habe, lebe ich eine neue Form der Begegnung mit
-              mir selbst und anderen, die immer mehr Tiefgang, Nähe und
-              Wahrhaftigkeit in mein Leben einlädt. Den kraftvollsten Moment der
-              Gestalttherapie stellt für mich die Entscheidung dar, wirkliche
-              Verantwortung für das Fühlen und Handeln zu übernehmen und dies in
-              den ehrlichen Austausch mit den Mitmenschen zu bringen. Für diese
-              Haltung gehe ich und investiere neben meiner Tätigkeit als
-              Sozialpädagogin meine Zeit und Lust dafür, sie in die Welt weiter
-              zu tragen. In der therapeutischen Arbeit liebe ich es ganz
+              i.A., Natur- und Erlebnispädagogin <br /><br />
+              Seit ich die Gestalttherapie für mich entdeckt habe, lebe ich eine
+              neue Form der Begegnung mit mir selbst und anderen, die immer mehr
+              Tiefgang, Nähe und Wahrhaftigkeit in mein Leben einlädt. Den
+              kraftvollsten Moment stellt für mich dabei die Entscheidung dar,
+              wirkliche Verantwortung für Fühlen und Handeln zu übernehmen und
+              dies in den ehrlichen Austausch zu bringen. Für diese Haltung
+              investiere ich meine Zeit und Lust, sie in die Welt weiter zu
+              tragen.
+              <br /><br />In der therapeutischen Arbeit liebe ich es ganz
               besonders, die verschiedenen Anteile in uns miteinander in
               Beziehung zu setzen und auf diese Weise die Möglichkeit zu öffnen,
               den Weg zu Selbstmitgefühl und inneren Frieden zu beschreiten.
@@ -143,7 +143,7 @@
           </figure>
           <img src="images/t2.jpg" alt="Patricia" />
         </div>
-        <div class="team-container-item">
+        <div id="Melina" class="team-container-item hidden">
           <img src="images/t4.jpg" alt="Melina" />
           <figure class="text-person">
             <h3>Melina Weiner</h3>
@@ -162,72 +162,95 @@
             </p>
           </figure>
         </div>
-        <div class="team-container-item-reverse">
+        <div id="Edgar" class="team-container-item-reverse hidden">
+          <figure class="text-person-reverse">
+            <h3>Edgar Reinhold</h3>
+            <p>
+              Gestalttherapeut, Sozialpädagoge <br /><br />
+              Mich fasziniert an der Gestaltarbeit, wie sie mich so radikal in
+              denMoment holt und mich immer wieder einlädt, wirklich mit dem
+              zusein, was grade ist. Und wie mich dieses Annehmen innerlich
+              freimacht und Veränderung ermöglicht.In meinem Beruf als
+              Sozialpädagoge greife ich immer wieder aufElemente aus der
+              systemischen Therapie zurück, welche ich auchgerne mal in die
+              Gestaltarbeit einfließen lasse. Auch meinem Humorgebe ich gerne
+              Raum in der therapeutischen Arbeit. Ich finde esnämlich recht
+              heilsam, auch im therapeutischen Prozess über sichselbst lachen zu
+              können.
+            </p>
+          </figure>
+          <img src="images/Gestaltzeit3.jpg" alt="Edgar" />
+        </div>
+        <div id="Agnes" class="team-container-item hidden">
+          <img src="images/Gestaltzeit14.jpg" alt="Agnes" />
+          <figure class="text-person">
+            <h3>Agnes Knoop</h3>
+            <p>
+              Sängerin, Gesangspädagogin, Gestalttherapeutin <br /><br />
+              Gestalt ist für mich, in eine authentische Begegnung mit mir, dem
+              Leben und anderen Menschen zu treten. Kontakt findet an der Grenze
+              statt, ist ein Satz aus der Gestalt, der mich viel begleitet hat
+              und es auch noch tut. Mich und meine Grenzen fühlen und zeigen in
+              einem Raum, wo Menschlichkeit herrscht, wo ich meine Bedürfnisse
+              und Impulse ganz da sein lassen kann.Wo sich die Grenzen zweier
+              oder mehrerer Menschen berühren und dadurch nährender,
+              authentischer Kontakt entsteht. Weil jedeR sie/er selbst sein
+              kann.So möchte ich nun mein erworbenes Wissen und mein Sein zur
+              Verfügung stellen, um Menschen freudig und feinfühlig auf ihrem
+              Weg zu begleiten.
+            </p>
+          </figure>
+        </div>
+        <div id="Martin" class="team-container-item-reverse hidden">
           <figure class="text-person-reverse">
             <h3>Martin Pellmann</h3>
             <p>
               Heilpraktiker für Psychotherapie, Gestalttherapeut, Pessotherapeut
-              (i.A)Gestalt ist für mich eine Art in der Welt zu sein. Achtsam ,
-              ein Abenteuer, immerwieder frisch, aufregend und bietet einen Raum
-              zum vertrauen und hingeben.In der therapeutischen Begleitung ist
-              mir wichtig gemeinsam zu schauen was fürdich gerade wirklich
-              wesentlich ist und dir dabei zu ermöglichen in deinemeigenen Tempo
-              zu bleiben.
+              (i.A) <br /><br />Gestalt ist für mich eine Art in der Welt zu
+              sein. Achtsam, ein Abenteuer, immerwieder frisch, aufregend und
+              bietet einen Raum zum vertrauen und hingeben. In der
+              therapeutischen Begleitung ist mir wichtig gemeinsam zu schauen
+              was für dich gerade wirklich wesentlich ist und dir dabei zu
+              ermöglichen in deinem eigenen Tempo zu bleiben.
             </p>
           </figure>
           <img src="images/t1.jpg" alt="Martin" />
         </div>
-        <!--    <div class="team-container-item">
-          <img src="images/t3.jpg" alt="Majke" />
+        <div id="Irene" class="team-container-item hidden">
+          <img src="images/irene_kl.jpg" alt="Irene" />
           <figure class="text-person">
-            <h3>Majke Kunze</h3>
+            <h3>Irene Kilian</h3>
             <p>
-              Psychologin (M.Sc.), Gestalttherapeutin (i.A.) Schwerpunkt
-              Körperpsychotherapie & kreative Medien, Hypnosystem-Coach,
-              Traumapädagogin i.A. Mich drängt seit jeher die Frage nach dem
-              „Wahren“: was ist das eigentlich? Was steckt hinter / in all den
-              Möglichkeiten, die Welt zu sehen? Wie finde ich meine ganz eigene
-              Wahrheit, meinen Wesenskern? Meine Vision in diesem Fragen ist es,
-              in ein sinnhaftes, erfülltes und sprudeliges Leben hinein zu
-              leben. Dabei ist Gestalt für mich ein wunderbarer Boden, auf dem
-              ich meine Schritte setzen kann. Es ermöglicht mir den Zugang zu
-              dem, was wirklich gerade ist, hinter all den Schutzvorhängen,
-              Mauern und Fassaden. Wer bin ich noch, neben der die ich gelernt
-              habe zu sein? Mit der Haltung der Gestalttherapie trete ich
-              (wieder) in einen (echten) Kontakt mit mir und mit der Welt um
-              mich herum. Injedem gegenwärtigen Augenblick neu. In meiner
-              Begleitung von Menschen bin ich experimentierfreudig,nah, achtsam
-              und haltgeben. Ich arbeite gern über und mit demKörper, der Stimme
-              und deinen ganz eigenen inneren Bildern.
+              HPPsych, Gestalt- und Releasing-Therapeutin, NARM-Therapeutin
+              i.A., Cellolehrerin und Mutter von 6 erwachsenen Kindern
+              <br /><br />
+              Ich liebe den Gestalt-Raum, der radikale Ehrlichkeit ermöglicht
+              auf dem Weg, tief anzunehmen, was da ist. Es begeistert mich,
+              einen Raum von tiefer Ehrlichkeit und vorbehaltloser Anerkennung
+              dessen, was ist, mit zu kreieren. Es ist wunderschön, Menschen
+              darin zu begleiten, in Kontakt mit ihren tieferen Bedürfnissen und
+              Impulsen zu kommen und ihnen auf dem Weg zu Selbstliebe und
+              Selbstermächtigung als „Hebamme“ beiseite zu stehen. „Alles ist
+              möglich und nichts muss“, dieser Satz leitet mich und gibt mir
+              eine große Ruhe. Manchmal lockt es mich aber auch, ein wenig zu
+              kitzeln und spielerisch an die Themen heran zu gehen.
             </p>
           </figure>
         </div>
-        <div class="team-container-item-reverse">
+        <div id="Manuel" class="team-container-item-reverse hidden">
           <figure class="text-person-reverse">
-            <h3>Patricia Kleber</h3>
+            <h3>Manuel Tumino</h3>
             <p>
-              Sozialpädagogin M.A., Gestalttherapeutin i.A., Heldenreiseleiterin
-              i.A., Natur- und Erlebnispädagogin Seit ich die Gestalttherapie
-              für mich entdeckt habe, lebe ich eine neue Form der Begegnung mit
-              mir selbst und anderen, die immer mehr Tiefgang, Nähe und
-              Wahrhaftigkeit in mein Leben einlädt. Den kraftvollsten Moment der
-              Gestalttherapie stellt für mich die Entscheidung dar, wirkliche
-              Verantwortung für das Fühlen und Handeln zu übernehmen und dies in
-              den ehrlichen Austausch mit den Mitmenschen zu bringen. Für diese
-              Haltung gehe ich und investiere neben meiner Tätigkeit als
-              Sozialpädagogin meine Zeit und Lust dafür, sie in die Welt weiter
-              zu tragen. In der therapeutischen Arbeit liebe ich es ganz
-              besonders, die verschiedenen Anteile in uns miteinander in
-              Beziehung zu setzen und auf diese Weise die Möglichkeit zu öffnen,
-              den Weg zu Selbstmitgefühl und inneren Frieden zu beschreiten.
-              Ausbildung zur Heldenreiseleiterin ergänzt meinen liebevoll
-              konfrontativen Begleitungsstil durch die Fähigkeit, Menschen in
-              besonders intensiven und ausdrucksstarken Prozessen im geschützten
-              Rahmen zu begleiten.
+              Gestaltarbeit, Körperarbeit, Rebalancing, Jungen*arbeit,
+              Fachbereich sexualisierte Gewalt, Council, MBSR,
+              Kinderschutzfachkraft, RestorativeJustice<br /><br />
+              Mitmensch zu sein bedeutet Mit Mensch zu sein <br />
+              mal klein und fein, mal grob wie ein Stein,<br />im gemeinsamen
+              Hain scheint das wahre Sein.
             </p>
           </figure>
-          <img src="images/t2.jpg" alt="Patricia" />
-        </div> -->
+          <img src="images/Gestaltzeit6.jpg" alt="Manuel" />
+        </div>
       </section>
       <section class="welcome">
         <img src="images/team2.jpg" alt="team picture" />
@@ -236,5 +259,101 @@
     </main>
 
     <script src="./js/navbarToggle.js"></script>
+    <script>
+      $(window).scroll(function () {
+        $("#Majke").each(function () {
+          var imagePos = $(this).offset().top;
+
+          var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow + 900) {
+            $(this).addClass("slideRight visible");
+          }
+        });
+      });
+    </script>
+    <script>
+      $(window).scroll(function () {
+        $("#Patricia").each(function () {
+          var imagePos = $(this).offset().top;
+
+          var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow + 800) {
+            $(this).addClass("slideLeft visible");
+          }
+        });
+      });
+    </script>
+    <script>
+      $(window).scroll(function () {
+        $("#Melina").each(function () {
+          var imagePos = $(this).offset().top;
+
+          var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow + 800) {
+            $(this).addClass("slideRight visible");
+          }
+        });
+      });
+    </script>
+    <script>
+      $(window).scroll(function () {
+        $("#Edgar").each(function () {
+          var imagePos = $(this).offset().top;
+
+          var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow + 600) {
+            $(this).addClass("slideLeft visible");
+          }
+        });
+      });
+    </script>
+    <script>
+      $(window).scroll(function () {
+        $("#Agnes").each(function () {
+          var imagePos = $(this).offset().top;
+
+          var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow + 600) {
+            $(this).addClass("slideRight visible");
+          }
+        });
+      });
+    </script>
+    <script>
+      $(window).scroll(function () {
+        $("#Martin").each(function () {
+          var imagePos = $(this).offset().top;
+
+          var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow + 600) {
+            $(this).addClass("slideLeft visible");
+          }
+        });
+      });
+    </script>
+    <script>
+      $(window).scroll(function () {
+        $("#Irene").each(function () {
+          var imagePos = $(this).offset().top;
+
+          var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow + 600) {
+            $(this).addClass("slideRight visible");
+          }
+        });
+      });
+    </script>
+    <script>
+      $(window).scroll(function () {
+        $("#Manuel").each(function () {
+          var imagePos = $(this).offset().top;
+
+          var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow + 600) {
+            $(this).addClass("slideLeft visible");
+          }
+        });
+      });
+    </script>
   </body>
 </html>

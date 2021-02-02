@@ -20,6 +20,12 @@
   filter: drop-shadow(1rem 1rem 0.75rem rgba(0, 0, 0, 0.466));
 }
 
+@media (max-width: 571px) {
+  .team-container-item img {
+    border-radius: 10px;
+  }
+}
+
 .team-container h3 {
   color: var(--three);
   font-size: clamp(1.2rem, 4vh, 1.8rem);
@@ -31,10 +37,9 @@
 }
 
 .text-person p {
-  font-size: clamp(0.8rem, 2vh, 1.5rem);
-
+  font-size: clamp(0.8rem, 1.7vh, 1.5rem);
   line-height: 1.5;
-  font-weight: 200;
+  font-weight: 300;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -64,6 +69,12 @@
   margin-right: 5vw;
 }
 
+@media (max-width: 571px) {
+  .team-container-item-reverse img {
+    border-radius: 10px;
+  }
+}
+
 .text-person-reverse {
   width: clamp(200px, 50vw, 1000px);
   padding-left: 5vw;
@@ -71,10 +82,9 @@
 }
 
 .text-person-reverse p {
-  font-size: clamp(0.8rem, 2vh, 1.5rem);
-
+  font-size: clamp(0.8rem, 1.7vh, 1.5rem);
   line-height: 1.5;
-  font-weight: 200;
+  font-weight: 300;
   max-width: 1000px;
   margin: 0 auto;
 }

@@ -32,7 +32,7 @@ summary {
 }
 
 .first {
-  background: url(../images/header.jpg);
+  background: radial-gradient(#6678008e, var(--one));
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -59,14 +59,16 @@ summary {
   justify-content: center;
   align-items: center;
 
-  background: radial-gradient(rgba(0, 0, 0, 0.9), transparent);
+  /*  background: radial-gradient(rgba(0, 0, 0, 0.9), transparent); */
   margin: 10vh;
   border-radius: 50%;
   color: var(--light);
+  width: 3vw;
+  height: auto;
 }
 
 #welcome {
-  scroll-margin-top: 8vh;
+  scroll-margin-top: 5vh;
 }
 
 .welcome {
@@ -84,7 +86,7 @@ summary {
   font-size: clamp(0.8rem, 2vh, 1.5rem);
   padding: 0.5rem 6rem;
   line-height: 1.5;
-  font-weight: 200;
+  font-weight: 300;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -107,6 +109,7 @@ summary {
 @media (max-width: 571px) {
   .welcome img {
     padding: 1rem 0;
+    border-radius: 13px / 26px;
   }
 }
 
@@ -135,6 +138,10 @@ summary {
   .gallery {
     padding: 1rem 0;
   }
+}
+.gallery img:hover {
+  transform: scale(1.4);
+  transition: 0.5s all ease;
 }
 
 .gallery img {
@@ -172,15 +179,55 @@ summary {
   height: auto;
   object-fit: cover;
   padding: 0.5rem;
+  border-radius: 30px;
 }
 
 @media (max-width: 700px) {
   .gallery2 img {
     width: 120px;
     height: auto;
+    border-radius: 18px;
   }
 }
 
 .gallery2 p {
-  margin-top: -0.5rem;
+  /*  margin-top: -0.5rem; */
+  font-family: "Playlist";
+  font-size: 1.5rem;
+}
+
+nav > .bg {
+  background: radial-gradient(circle at 100%, #6678008e, var(--one));
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.089);
+}
+
+.navbar-link,
+a.navbar-item {
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .navbar-link,
+  a.navbar-item {
+    color: black;
+  }
+}
+
+.navbar-link:hover,
+a.navbar-item:hover {
+  color: var(--three) !important;
+}
+
+.navbar-link:not(.is-arrowless)::after {
+  border-color: white;
+}
+
+.navbar-dropdown > a.navbar-item {
+  color: black;
 }

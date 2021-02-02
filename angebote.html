@@ -11,91 +11,96 @@
     <title>GestaltZeit</title>
   </head>
   <body class="has-navbar-fixed-top">
-    <header>
-      <!-- https://bulma.io/documentation/components/navbar/ -->
-      <nav
-        class="navbar is-dark is-fixed-top"
-        role="navigation"
-        aria-label="main navigation"
-      >
-        <div class="navbar-brand">
-          <a
-            role="button"
-            class="navbar-burger"
-            aria-label="menu"
-            aria-expanded="false"
-            data-target="navbarBasicExample"
-          >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a href="index.html" class="navbar-item"> Gestaltzeit</a>
-
-            <a href="team.html" class="navbar-item"> Unser Team </a>
-
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a href="angebote.html" class="navbar-link"> Angebote </a>
-
-              <div class="navbar-dropdown">
-                <a href="angebote.html/#abend" class="navbar-item">
-                  Gestaltzeit am Abend
+    <body class="has-navbar-fixed-top">
+      <header>
+        <!-- https://bulma.io/documentation/components/navbar/ -->
+        <nav
+          class="navbar is-transparent is-fixed-top"
+          role="navigation"
+          aria-label="main navigation"
+        >
+          <div class="navbar-brand">
+            <a
+              role="button"
+              class="navbar-burger"
+              aria-label="menu"
+              aria-expanded="false"
+              data-target="navbarBasicExample"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+  
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a href="index.html" class="navbar-item"> Gestaltzeit</a>
+  
+              <a href="team.html" class="navbar-item"> Unser Team </a>
+  
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a href="angebote.html" class="navbar-link"> Angebote </a>
+  
+                <div class="navbar-dropdown">
+                  <a href="angebote.html#abend" class="navbar-item">
+                    Gestaltzeit am Abend
+                  </a>
+                  <a href="angebote.html#fruehling" class="navbar-item">
+                    Gestaltzeit im Frühling</a
+                  >
+                  <a href="angebote.html#wald" class="navbar-item">
+                    Gestaltzeit im Wald</a
+                  >
+                  <a href="angebote.html#herbst" class="navbar-item">
+                    Gestaltzeit im Herbst</a
+                  >
+                  <a href="angebote.html#einzel" class="navbar-item">
+                    Gestaltzeit Einzelsession
+                  </a>
+                </div>
+              </div>
+              <a href="#" class="navbar-item"> Kontakt</a>
+            </div>
+  
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <!-- <div class="buttons">
+                <a class="button is-primary">
+                  <strong>Sign up</strong>
                 </a>
-                <a href="angebote.html/#fruehling" class="navbar-item">
-                  Gestaltzeit im Frühling</a
-                >
-                <a href="angebote.html/#wald" class="navbar-item">
-                  Gestaltzeit im Wald</a
-                >
-                <a href="angebote.html/#herbst" class="navbar-item">
-                  Gestaltzeit im Herbst</a
-                >
-                <a href="angebote.html/#einzel" class="navbar-item">
-                  Gestaltzeit Einzelsession
-                </a>
+                <a class="button is-light"> Log in </a>
+              </div> -->
               </div>
             </div>
-            <a href="#" class="navbar-item"> Kontakt</a>
           </div>
-
-          <div class="navbar-end">
-            <div class="navbar-item">
-              <!-- <div class="buttons">
-              <a class="button is-primary">
-                <strong>Sign up</strong>
-              </a>
-              <a class="button is-light"> Log in </a>
-            </div> -->
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
+          <div class="bg"></div>
+        </nav>
+      </header>
 
     <main>
       <section class="welcome">
+       
         <h1>Unsere Angebote</h1>
+       
         <p>
           Gemeinsam wollen wir eine Kultur entstehen lassen, in der Lebendigkeit
           und zwischenmenschliche Verbindung möglich werden. Dafür initiieren
           wir Erfahrungs- und Forschungsräume. Durch verschiedene Formate wie
           Sharing in der Gruppe, Meditation und Achtsamkeitsübungen, Body Work
           und kreative Prozesse kannst du dich selbst entdecken, beachten und
-          ausdrücken. Bei weiteren Fragen oder zum Anmelden schreibe uns eine
+          ausdrücken. <br> <br> Bei weiteren Fragen oder zum Anmelden schreibe uns eine
           Mail an
           <a href="mailto:gestaltzeit@posteo.de">gestaltzeit@posteo.de</a> bzw.
           über das Kontaktformular!
         </p>
+        <img src="images/header.jpg" alt="team pic" />
       </section>
       <section class="angebote-container">
         <div class="angebote-container-item" id="abend">
-          <img src="images/logo_bl.png" alt="Gestaltzeit am Abend" />
+          <img  src="images/logo_bl.png" alt="Gestaltzeit am Abend" />
           <figure class="text-angebot">
-            <h3>Gestaltzeit am Abend</h3>
+            <h3  >Gestaltzeit am Abend</h3>
             <p>
               Alle zwei Wochen donnerstags findet unsere GESTALTzeit am Abend
               statt. Hier kannst du für ein paar Stunden in Begegnung
@@ -110,8 +115,8 @@
               >
             </p>
           </figure>
-          <details>
-            <summary class="sum_abend">mehr Infos</summary>
+          <details >
+            <summary  class="sum_abend pulse"> mehr Infos</summary>
             <div class="details">
               <h3>Gestaltzeit am Abend</h3>
               <br />Alle zwei Wochen donnerstags findet unsere GESTALTzeit am
@@ -172,14 +177,14 @@
               <div class="details__pics">
                 <img src="images/ang_pic4.jpg" alt="pic abend" />
                 <img src="images/ang_pic5.jpg" alt="pic abend" />
-                <img src="images/ang_pic7.jpeg" alt="pic abend" />
+                <img src="images/ang_pic7.jpg" alt="pic abend" />
               </div>
             </div>
           </details>
         </div>
         <div class="angebote-container-item-reverse" id="fruehling">
           <details>
-            <summary class="sum_fruehling">mehr Infos</summary>
+            <summary class="sum_fruehling pulse">mehr Infos</summary>
             <div class="details">
               <h3>Gestaltzeit im Frühling</h3>
               <br />Zeit, das Lebendige und Aufblühende bewusst wahrzunehmen, im
@@ -234,7 +239,7 @@
               ausgefüllten Anmeldebogen und der unterschriebenen
               Selbstverantwortungserklärung – dann hast du einen Platz sicher!
               <div class="details__pics">
-                <img src="images/ang_pic16.jpg" alt="pic fruehling" />
+                <img src="images/ang_pic8.jpg" alt="pic fruehling" />
                 <img src="images/ang_pic9.jpg" alt="pic fruehling" />
                 <img src="images/ang_pic17.jpg" alt="pic fruehling" />
               </div>
@@ -247,7 +252,7 @@
               imAustausch mit anderen zu verstärken und kribbelige
               „Grenzerfahrungen“zu machen! Die Gestaltzeit im Frühling bietet
               dir Raum zum Visionieren,Träumen, Tanzen und in Kontakt treten.
-              Raus aus der Komfortzone undab auf den Lernpfad des Lebens!
+              Raus aus der Komfortzone und ab auf den Lernpfad des Lebens!
               <br /><br />
               <span class="bold"> Nächster Termin: 1.-4.4.21 (Freiburg)</span>
             </p>
@@ -275,7 +280,7 @@
             </p>
           </figure>
           <details>
-            <summary class="sum_wald">mehr Infos</summary>
+            <summary class="sum_wald pulse">mehr Infos</summary>
             <div class="details">
               <h3>Gestaltzeit im Wald</h3>
               <br />Wie geht Gestaltarbeit außerhalb von geschlossenen Räumen?
@@ -349,7 +354,7 @@
         </div>
         <div class="angebote-container-item-reverse" id="herbst">
           <details>
-            <summary class="sum_herbst">mehr Infos</summary>
+            <summary class="sum_herbst pulse">mehr Infos</summary>
             <div class="details">
               <h3>Gestaltzeit im Herbst</h3>
               <br />Dieses mehrtägige Seminar findet im Übergang in den November
@@ -433,7 +438,7 @@
           <img src="images/logo_herbst.png" alt="Gestaltzeit im Herbst" />
         </div>
         <div class="angebote-container-item" id="einzel">
-          <img src="images/logo_einzel.png" alt="Gestaltzeit Einzelsession" />
+          <img src="images/logo_einzel_gr.png" alt="Gestaltzeit Einzelsession" />
           <figure class="text-angebot">
             <h3>Gestaltzeit Einzelsession</h3>
             <p>
