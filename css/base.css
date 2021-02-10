@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&family=Six+Caps&display=swap");
-@import url("fontawesome-all.min.css");
 
 @font-face {
   font-family: "Playlist";
@@ -100,55 +99,54 @@ td:nth-of-type(odd) {
   transition: all 0.5s ease;
 }
 
-/* 
-a {
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 15vw;
+  width: 100vw;
+  height: auto;
+  background: linear-gradient(#f3f3f3, #fafafa);
+  position: relative;
+  gap: 5vw;
+}
+
+@media (max-width: 500px) {
+  .footer {
+    font-size: 0.7rem;
+    padding: 1rem 5vw;
+  }
+}
+/* @media (max-width: 500px) {
+  .footer h2 {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 500px) {
+  .footer img {
+    bottom: 3rem;
+    width: 15vw;
+  }
+}
+ */
+.footer h2 {
+  font-size: 1.5rem;
   text-decoration: none;
 }
 
-.navbar-start {
-  position: relative;
-  width: 100%;
-  height: 13vh;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  background: rgba(51, 151, 51, 0.822);
+.footer li a {
+  color: black;
+  padding: 0;
 }
 
-ul {
-  display: flex;
-  flex-flow: row nowrap;
-  list-style: none;
-  width: 20%;
+.footer a:hover {
+  color: var(--one);
 }
 
-.navbar-container a {
-  text-transform: lowercase;
-  font-weight: 600;
-  color: white;
-  line-height: 1;
-  font-size: 1.5rem;
-}
-
-.navbar-container a::before {
-  content: attr(data-text);
+.footer img {
+  width: 10vw;
+  height: auto;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: -1;
-  text-align: center;
-  font-size: 10rem;
-  color: blue;
-  opacity: 0;
-  transition: 0.5s;
-  line-height: 12vh;
-  text-transform: uppercase;
+  right: 10vw;
+  bottom: 2rem;
 }
-
-.navbar-item:hover a::before {
-  opacity: 1;
-}
- */

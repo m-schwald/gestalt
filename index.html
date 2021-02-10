@@ -7,7 +7,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
     />
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
     <link rel="stylesheet" href="styles.css" />
     <title>GestaltZeit</title>
   </head>
@@ -189,19 +189,27 @@
         /></a>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer">
+        <h2>Infos:</h2>
+        <ul>
+          <li>
+            <a href="index.html" class=""> über Gestaltzeit</a>
+          </li>
+          <li><a href="team.html" class=""> unser Team </a></li>
+          <li>
+            <a href="angebote.html" class=""> unsere Angebote </a>
+          </li>
+        </ul>
+        <ul>
+          <li><a href="kontakt.html" class="">Kontakt</a></li>
+          <li><a href="impressum.html" class="">Impressum</a></li>
+          <li><a href="datenschutz.html" class="">Datenschutzerklärung</a></li>
+        </ul>
+        <img src="images/logo_ol.png" alt="Gestaltzeit Logo" />
+      </div>
+    </footer>
     <script src="./js/navbarToggle.js"></script>
-    <script>
-      $(window).scroll(function () {
-        $("#gallery").each(function () {
-          var imagePos = $(this).offset().top;
-
-          var topOfWindow = $(window).scrollTop();
-          if (imagePos < topOfWindow + 700) {
-            $(this).addClass("expandUp visible");
-          }
-        });
-      });
-    </script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
