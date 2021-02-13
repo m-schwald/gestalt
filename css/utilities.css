@@ -29,3 +29,7 @@
 .br-8 {
   border-radius: 82% 59% / 25% 18%;
 }
+
+.full-height {
+  height: 79vh;
+}
