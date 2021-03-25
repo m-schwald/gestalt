@@ -10,7 +10,7 @@
 }
 
 @font-face {
-  font-family: "Playlist";
+  font-family: "Montserrat";
   src: url("../webfonts/Montserrat-Black.ttf") format("ttf"),
     url("../webfonts/Montserrat-Bold.ttf") format("ttf"),
     url("../webfonts/Montserrat-ExtraBold.ttf") format("ttf"),
@@ -44,7 +44,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -58,6 +58,7 @@ a:hover {
 
 main a {
   font-family: "Playlist";
+  font-size: 1.3rem;
   font-size: clamp(1rem, 3vw, 2rem);
 }
 
@@ -154,7 +155,7 @@ td:nth-of-type(odd) {
 
 .footer li a {
   color: black;
-  padding: 0;
+  padding: 0 1rem;
 }
 
 .footer a:hover {
@@ -189,6 +190,7 @@ td:nth-of-type(odd) {
 }
 
 .fs-clamp {
+  font-size: 2rem;
   font-size: clamp(1.5rem, 2vw, 2.5rem);
 }
 
